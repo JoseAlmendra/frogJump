@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Corgi Jump</title>
+    <link rel="preload" href="src/digital-7.ttf" as="font" type="font/ttf" crossorigin>
+    <style>
+    body { margin: 0; padding: 0; background-color: #000000; } 
+
+    /* === INICIO: REGLA PARA CARGAR LA FUENTE DIGITAL-7 === */
+    @font-face {
+        font-family: 'Digital-7'; /* Este nombre DEBE coincidir con el código de Phaser */
+        src: url('src/digital-7.ttf') format('truetype'); /* <--- ¡VERIFICA ESTA RUTA! */
+        font-display: swap;
+    }
+    /* === FIN: REGLA PARA CARGAR LA FUENTE DIGITAL-7 === */
+
+    </style>
+    <script src="node_modules/phaser/dist/phaser.min.js"></script>
+    <script src="src/testLevel.js"></script>
+</head>
+<body>
+    <div id="game-container"></div>
+</body>
+</html>
